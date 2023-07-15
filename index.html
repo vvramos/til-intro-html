@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html>
+
+  <head> 
+    <title> Beginning HTML </title>
+  </head>
+
+  <body>
+
+    <h1> TIL: Intro HTML </h1>
+    <p><strong>Hyper Text Markup Language</strong>: a text file that a browser reads and displays to a user.
+    <br>
+    HTML uses lots of tags. To tag something, wrap angle brackets < > around text. e.g.:</p>
+    <pre>
+      &lt;p&gt; &lt;/p&gt;</pre>
+    <p>The second tag is a closing tag indicated by the "/".</p>
+
+    <h2> Elements </h2>
+    <p> Elements tell the browser about the info between an opening and closing tag.
+    <br>
+    There are also empty elements with no closing tag like:</p>
+    <pre>
+      &lt;br&gt;</pre>
+    <p>This element's used to add a line break.</p>
+
+    <h3>Attributes</h3>
+    <p>Attributes give more info about a specific element, letting you do or display more. Examples include making a link open in a new tab or adjusting an image's size. 
+    <br>
+    Attributes go inside the opening tag and are specific to the element it's modifying. They're made up of an attibute name, an equal sign, and an assigned value:</p>
+      
+    <table>
+    <tr>
+      <th>Attribute name</th>
+      <th>=</th>
+      <th>Assigned value</th>
+    </tr>
+
+    <tr>
+      <td>target</td>
+      <td>=</td>
+      <td>"_blank"</td>
+    </tr>
+    </table>
+
+    <p>Here's what it looks like inside an element:</p>
+    <pre>
+      &lt;a href="http://www.example.com/index.html" target="_blank"&gt;Click me&lt;/a&gt;</pre>
+    
+    <h3>Embedding</h3>
+    HTML can insert things like links to another site, tables, forms and media like images and videos.</p>
+    
+    <a href="https://youtu.be/xvFZjo5PgG0"><img src="https://images.slideplayer.com/10/2900728/slides/slide_40.jpg" width="250" height"250" title="You know you wanna click it!"/></a>
+
+    <h2> HTML Sections </h2>
+
+    <p> Usually a doctype declaration is first to let the browser know what type of document the file is.
+    <pre>
+      &lt;!DOCTYPE html&gt;</pre>
+    Next, there's &lt;html&gt; and &lt;/html&gt; tags to let the browser know when the html starts and ends.
+    <br><br>
+    Nested within the html tags are the:</p>
+	  <ul>
+            <li>Header<em><head></head></em>: Contains the webpage title and metadata like the spoken language of the page.</li>
+	    <li>Body<em><body></body></em>: Most everything that's displayed to the user.</li></ul>
+
+    <h2>Comments</h2>
+    <p>Comments can be added as private notes for your code that don't show up on the webpage.</p>
+    <pre>
+      &lt;!--Note listed here--&gt;</pre>
+
+    That's all for today!
+    <br>
+    - Vivi Ramos
+  </body>
+
+</html>
